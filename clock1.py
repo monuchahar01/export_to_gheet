@@ -1,5 +1,5 @@
 from apscheduler.schedulers.background  import BlockingScheduler
-from ghseet import export_to_gsheet
+from gsheet import export_to_gsheet
 sched = BlockingScheduler()
 
 
